@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import HotSauce from './sandbox';
 
 function App() {
   const name = 'lancer';
@@ -13,7 +14,7 @@ function App() {
   // Creating a state using useState('').
   const [userName, setUserName] = useState('Rider');
 
-  
+
   return (
     <div>
       <h1>Hello {name} </h1>
@@ -23,6 +24,8 @@ function App() {
       
       <button onClick={handleChange}>Click me to change name</button>
       {/* <h2></h2> */}
+
+      <HotSauce userName={userName}/>
     </div>
   );
 }
