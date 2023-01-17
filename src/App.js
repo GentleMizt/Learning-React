@@ -11,6 +11,9 @@ function App() {
     setUserName('Lancer');
   }
 
+  // Array of students in the class
+  const students = ['halima', 'seun', 'raddie', 'Lancer', 'Gabriel', 'Olamide', 'judith', 'leye', 'mj']
+
   // Creating a state using useState('').
   const [userName, setUserName] = useState('Rider');
 
@@ -23,9 +26,10 @@ function App() {
       <p>The default username is {userName}</p>
       
       <button onClick={handleChange}>Click me to change name</button>
-      {/* <h2></h2> */}
+
 
       <HotSauce name={userName} />
+      {students.map((cur, index) => <p key={index}>{cur}</p>)}
     </div>
   );
 }
