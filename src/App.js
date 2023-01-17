@@ -25,7 +25,7 @@ function App() {
       <button onClick={handleChange}>Click me to change name</button>
       {/* <h2></h2> */}
 
-      <HotSauce userName={userName}/>
+      <HotSauce name={userName} />
     </div>
   );
 }
