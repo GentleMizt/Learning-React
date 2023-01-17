@@ -10,7 +10,10 @@ function App() {
     setUserName('Lancer');
   }
 
+  // Creating a state using useState('').
   const [userName, setUserName] = useState('Rider');
+
+  
   return (
     <div>
       <h1>Hello {name} </h1>
@@ -48,3 +51,6 @@ export default App;
 
 // whenever u want to use a hook in react, u have to bring it into react by importing the hook 
 // whenever we create a state, we have a variable that holds the state value, and we have a function that changes the variable value.
+
+// PROPS means Properties
+// we use props when connecting 2 different compopnents.
