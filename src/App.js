@@ -61,3 +61,5 @@ export default App;
 
 // PROPS means Properties
 // we use props when connecting 2 different compopnents.
+
+// When writing a one line arrow function, there is no need for the return keyword
