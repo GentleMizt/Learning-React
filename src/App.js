@@ -5,9 +5,11 @@ function App() {
   const name = 'lancer';
   const age = 26;  
 
+  // A function for handling states.
   const handleChange = () =>{
     setUserName('Lancer');
   }
+
   const [userName, setUserName] = useState('Rider');
   return (
     <div>
