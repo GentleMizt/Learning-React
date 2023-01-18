@@ -63,3 +63,7 @@ export default App;
 // we use props when connecting 2 different compopnents.
 
 // When writing a one line arrow function, there is no need for the return keyword
+
+// useEffect is a method and it takes in two parameters, first one is a function, and the second is a dependency array
+// the dependency states how many times u want to call the function or when u want it to be called
+// An empty array dependency of the depe means that once ur page loads call the function once
