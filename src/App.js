@@ -30,6 +30,7 @@ function App() {
 
       <HotSauce name={userName} />
       {students.map((cur, index) => <p key={index}>{cur}</p>)}
+     
     </div>
   );
 }
