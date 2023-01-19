@@ -68,3 +68,5 @@ export default App;
 // useEffect is a method and it takes in two parameters, first one is a function, and the second is a dependency array
 // the dependency states how many times u want to call the function or when u want it to be called
 // An empty array dependency of the depe means that once ur page loads call the function once
+
+// If u need to write a function based on some side effects or some external variable, u need to use the useE ffect hook.
